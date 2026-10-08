@@ -16,7 +16,7 @@
         <key>NSExtensionPointIdentifier</key>
         <string>com.apple.quicklook.preview</string>
         <key>NSExtensionPrincipalClass</key>
-        <string>PreviewProvider</string>
+        <string>CIFQuickLook.PreviewProvider</string>
         <key>NSExtensionAttributes</key>
         <dict>
             <key>QLSupportedContentTypes</key>

@@ -48,42 +48,11 @@ targets:
         CODE_SIGN_ENTITLEMENTS: Resources/appex.entitlements
         OTHER_LDFLAGS: ["-e", "_NSExtensionMain"]
         LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks"
-  MiniQLApp:
-    type: application
-    platform: macOS
-    sources:
-      - path: Sources/MiniHost
-    dependencies:
-      - target: MiniQL
-    settings:
-      base:
-        PRODUCT_BUNDLE_IDENTIFIER: org.cifpreview.mini
-        INFOPLIST_FILE: Resources/MiniApp.Info.plist
-        GENERATE_INFOPLIST_FILE: NO
-        PRODUCT_NAME: MiniQLApp
-  MiniQL:
-    type: app-extension
-    platform: macOS
-    sources:
-      - path: Sources/MiniQL
-    settings:
-      base:
-        PRODUCT_BUNDLE_IDENTIFIER: org.cifpreview.mini.QuickLook
-        INFOPLIST_FILE: Resources/MiniQL.Info.plist
-        GENERATE_INFOPLIST_FILE: NO
-        PRODUCT_NAME: MiniQL
 schemes:
   CIFPreview:
     build:
       targets:
         CIFPreview: all
         CIFQuickLook: all
-    run:
-      config: Release
-  MiniQLApp:
-    build:
-      targets:
-        MiniQLApp: all
-        MiniQL: all
     run:
       config: Release

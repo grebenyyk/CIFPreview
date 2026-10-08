@@ -1,49 +1,60 @@
-import Foundation
+import AppKit
 import QuickLookUI
-import UniformTypeIdentifiers
 import os.log
 import CIFCore
 
-/// Quick Look preview extension principal class.
-/// Renders a static ball-and-stick PNG of the first structural block; on any
-/// parse/render failure it returns a short text reason instead of nothing.
-/// Note: @objc alias + keep-alive in main.swift — without an ObjC-visible
-/// name and reference the linker dead-strips the class record entirely
-/// (Info.plist references are invisible to it), and QuickLook reports
-/// "extension not found". Info.plist must then use the bare ObjC name.
-@objc(PreviewProvider)
-final class PreviewProvider: QLPreviewProvider, QLPreviewingController {
+/// Quick Look preview extension principal class (macOS view-service contract):
+/// the system instantiates this NSViewController and hosts its view in the
+/// preview pane, then calls preparePreviewOfFile(at:). We render the structure
+/// offscreen via SceneKit and present the resulting image.
+///
+/// Note: a keep-alive reference in main.swift keeps this class (and its
+/// mangled ObjC name) from being dead-stripped — Info.plist references are
+/// invisible to the linker.
+final class PreviewProvider: NSViewController, QLPreviewingController {
 
     private static let log = Logger(subsystem: "org.cifpreview.CIFPreview", category: "preview")
+    private static let previewSize = CGSize(width: 800, height: 600)
 
-    func providePreview(for request: QLFilePreviewRequest,
-                        completionHandler handler: @escaping (QLPreviewReply?, Error?) -> Void) {
-        Self.log.info("preview requested for \(request.fileURL.lastPathComponent, privacy: .public)")
-        let breadcrumb = FileManager.default.temporaryDirectory
-            .appendingPathComponent("cif_ql_breadcrumb.txt")
-        try? "providePreview ran at \(Date()) for \(request.fileURL.lastPathComponent)\n"
-            .write(to: breadcrumb, atomically: true, encoding: .utf8)
+    override func loadView() {
+        let root = NSView(frame: NSRect(origin: .zero, size: Self.previewSize))
+        root.wantsLayer = true
+        root.layer?.backgroundColor = NSColor(calibratedWhite: 0.97, alpha: 1).cgColor
+        view = root
+    }
+
+    func preparePreviewOfFile(at url: URL) async throws {
+        Self.log.info("preview requested for \(url.lastPathComponent, privacy: .public)")
         do {
-            let data = try Data(contentsOf: request.fileURL)
+            let data = try Data(contentsOf: url)
             let model = try StructureExtractor.extract(from: data)
-            guard let scene = SceneBuilder.scene(for: model) else {
+            guard let scene = SceneBuilder.scene(for: model),
+                  let png = Snapshot.pngData(for: scene, size: SceneBuilder.canvasSize) else {
                 throw ExtractError.noStructure
             }
-            guard let png = Snapshot.pngData(for: scene, size: SceneBuilder.canvasSize) else {
-                throw ExtractError.parsing("scene snapshot failed")
+            guard let image = NSImage(data: png) else {
+                throw ExtractError.parsing("PNG decode failed")
             }
-            let reply = QLPreviewReply(dataOfContentType: .png,
-                                       contentSize: CGSize(width: 800, height: 600)) { _ in
-                png
+            await MainActor.run {
+                let imageView = NSImageView(frame: view.bounds)
+                imageView.image = image
+                imageView.imageScaling = .scaleProportionallyUpOrDown
+                imageView.autoresizingMask = [.width, .height]
+                view.addSubview(imageView)
             }
-            handler(reply, nil)
         } catch {
-            let text = Data("CIF structure preview unavailable.\n\(error)\n".utf8)
-            let reply = QLPreviewReply(dataOfContentType: .plainText,
-                                       contentSize: CGSize(width: 480, height: 120)) { _ in
-                text
-            }
-            handler(reply, nil)
+            Self.log.error("preview failed: \(String(describing: error), privacy: .public)")
+            await MainActor.run { Self.show(text: "CIF structure preview unavailable.\n\(error)", in: view) }
         }
+    }
+
+    @MainActor
+    private static func show(text: String, in view: NSView) {
+        let field = NSTextField(labelWithString: text)
+        field.frame = view.bounds.insetBy(dx: 16, dy: 16)
+        field.autoresizingMask = [.width, .height]
+        field.isSelectable = true
+        field.textColor = .secondaryLabelColor
+        view.addSubview(field)
     }
 }
