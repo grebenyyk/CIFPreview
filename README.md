@@ -1,4 +1,4 @@
-# cif-ql — Quick Look previews for crystallographic `.cif` files
+# Quick Look previews for `.cif` files
 
 A native macOS Quick Look preview extension that renders crystal structures
 from CIF (Crystallographic Information Format) files on space-bar press in
