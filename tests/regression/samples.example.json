@@ -1,0 +1,11 @@
+[
+  {"name": "simple P1 structure (explicit atoms, no symmetry loop)", "path": "~/path/to/your/sample_p1.cif"},
+  {"name": "quoted symmetry operations with CRLF line endings", "path": "~/path/to/your/sample_p-1.cif"},
+  {"name": "high-symmetry cubic (192 ops from file)", "path": "~/path/to/your/sample_fm3m.cif"},
+  {"name": "Cartesian coords under fract tags with dummy ~1A cell", "path": "~/path/to/your/sample_cartesian.cif"},
+  {"name": "multi-block CSD-style dump (many data_ blocks)", "path": "~/path/to/your/sample_multiblock.cif"},
+  {"name": "extra non-standard columns in the atom loop", "path": "~/path/to/your/sample_gsas.cif"},
+  {"name": "space-group name only, no symop loop", "path": "~/path/to/your/sample_lab6.cif"},
+  {"name": "no atom loop at all (bond-valence table etc.)", "path": "~/path/to/your/sample_noatoms.cif"},
+  {"name": "large structure (~10k atoms) for performance", "path": "~/path/to/your/sample_large.cif"}
+]

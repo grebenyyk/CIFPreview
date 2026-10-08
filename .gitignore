@@ -1,0 +1,16 @@
+# build artifacts
+.build/
+build/
+*.o
+
+# local regression samples — real paths and CSD-licensed structures stay private
+tests/regression/samples.local.json
+tests/regression/files/
+
+# scratch outputs
+*.png
+!Resources/**/*.png
+# xcodegen/xcodebuild artifacts
+CIFPreview.xcodeproj/
+.build/xcode/
+*.dSYM

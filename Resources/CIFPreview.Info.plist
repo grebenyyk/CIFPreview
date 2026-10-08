@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>                <string>CIFPreview</string>
+    <key>CFBundleDisplayName</key>         <string>CIF Preview</string>
+    <key>CFBundleIdentifier</key>          <string>org.cifpreview.CIFPreview</string>
+    <key>CFBundleExecutable</key>          <string>CIFPreview</string>
+    <key>CFBundlePackageType</key>         <string>APPL</string>
+    <key>CFBundleInfoDictionaryVersion</key> <string>6.0</string>
+    <key>CFBundleShortVersionString</key>  <string>1.0.0</string>
+    <key>CFBundleVersion</key>             <string>1</string>
+    <key>LSMinimumSystemVersion</key>      <string>12.0</string>
+    <key>LSUIElement</key>                 <true/>
+    <key>NSHighResolutionCapable</key>     <true/>
+    <key>UTImportedTypeDeclarations</key>
+    <array>
+        <dict>
+            <key>UTTypeIdentifier</key>
+            <string>net.sourceforge.openbabel.cif</string>
+            <key>UTTypeDescription</key>
+            <string>Crystallographic Information File</string>
+            <key>UTTypeConformsTo</key>
+            <array>
+                <string>public.data</string>
+                <string>public.text</string>
+            </array>
+            <key>UTTypeTagSpecification</key>
+            <dict>
+                <key>public.filename-extension</key>
+                <array>
+                    <string>cif</string>
+                    <string>mmcif</string>
+                </array>
+                <key>public.mime-type</key>
+                <array>
+                    <string>chemical/x-cif</string>
+                </array>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>

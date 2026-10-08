@@ -1,0 +1,387 @@
+/* (No Comment) */
+"Actinium" = "악티늄";
+
+/* (No Comment) */
+"Aluminum" = "알루미늄";
+
+/* (No Comment) */
+"Americium" = "아메리슘";
+
+/* (No Comment) */
+"Antimony" = "안티모니";
+
+/* (No Comment) */
+"Argon" = "아르곤";
+
+/* (No Comment) */
+"Arsenic" = "비소";
+
+/* (No Comment) */
+"Astatine" = "아스타틴";
+
+/* (No Comment) */
+"Barium" = "바륨";
+
+/* (No Comment) */
+"Berkelium" = "버클륨";
+
+/* (No Comment) */
+"Beryllium" = "베릴륨";
+
+/* (No Comment) */
+"Bismuth" = "비스무트";
+
+/* (No Comment) */
+"Bohrium" = "보륨";
+
+/* (No Comment) */
+"Boron" = "붕소";
+
+/* (No Comment) */
+"Bromine" = "브로민";
+
+/* (No Comment) */
+"Cadmium" = "카드뮴";
+
+/* (No Comment) */
+"Calcium" = "칼슘";
+
+/* (No Comment) */
+"Californium" = "킬리포늄";
+
+/* (No Comment) */
+"Carbon" = "탄소";
+
+/* (No Comment) */
+"Cerium" = "세륨";
+
+/* (No Comment) */
+"Cesium" = "세슘";
+
+/* (No Comment) */
+"Chlorine" = "염소";
+
+/* (No Comment) */
+"Chromium" = "크로뮴";
+
+/* (No Comment) */
+"Cobalt" = "코발트";
+
+/* No comment provided by engineer. */
+"Contains no data" = "데이터가 없습니다";
+
+/* (No Comment) */
+"Copernicium" = "코페르니슘";
+
+/* (No Comment) */
+"Copper" = "구리";
+
+/* (No Comment) */
+"Curium" = "퀴륨";
+
+/* (No Comment) */
+"Darmstadtium" = "다름슈타튬";
+
+/* (No Comment) */
+"Dubnium" = "두브늄";
+
+/* (No Comment) */
+"Dysprosium" = "디스프로슘";
+
+/* (No Comment) */
+"Einsteinium" = "아인슈타이늄";
+
+/* (No Comment) */
+"Erbium" = "어븀";
+
+/* (No Comment) */
+"Europium" = "유로퓸";
+
+/* No comment provided by engineer. */
+"Failed UTF-8 and ASCII decoding" = "UTF-8 및 ASCII 디코딩 실패";
+
+/* (No Comment) */
+"Fermium" = "페르뮴";
+
+/* (No Comment) */
+"Flerovium" = "플레로븀";
+
+/* (No Comment) */
+"Fluorine" = "플루오린";
+
+/* (No Comment) */
+"Francium" = "프랑슘";
+
+/* (No Comment) */
+"Gadolinium" = "가돌리늄";
+
+/* (No Comment) */
+"Gallium" = "갈륨";
+
+/* (No Comment) */
+"Germanium" = "저마늄";
+
+/* (No Comment) */
+"Gold" = "금";
+
+/* (No Comment) */
+"Hafnium" = "하프늄";
+
+/* (No Comment) */
+"Hassium" = "하슘";
+
+/* (No Comment) */
+"Helium" = "헬륨";
+
+/* (No Comment) */
+"Holmium" = "홀뮴";
+
+/* (No Comment) */
+"Hydrogen" = "수소";
+
+/* (No Comment) */
+"Indium" = "인듐";
+
+/* (No Comment) */
+"Invalid Archive Version (Upgrade to latest iRASPA version)" = "잘못된 아카이브 버전 (최신 iRASPA 버전으로 업그레이드)";
+
+/* (No Comment) */
+"Iodine" = "아이오딘";
+
+/* (No Comment) */
+"Iridium" = "이리듐";
+
+/* (No Comment) */
+"Iron" = "철";
+
+/* (No Comment) */
+"Krypton" = "크립톤";
+
+/* (No Comment) */
+"Lanthanum" = "란타넘";
+
+/* (No Comment) */
+"Lawrencium" = "로렌슘";
+
+/* (No Comment) */
+"Lead" = "납";
+
+/* (No Comment) */
+"Lithium" = "리튬";
+
+/* (No Comment) */
+"Livermorium" = "리버모륨";
+
+/* (No Comment) */
+"Lutetium" = "루테튬";
+
+/* (No Comment) */
+"Magnesium" = "마그네슘";
+
+/* (No Comment) */
+"Manganese" = "망가니즈";
+
+/* (No Comment) */
+"Meitnerium" = "마이트너륨";
+
+/* (No Comment) */
+"Mendelevium" = "멘델레븀";
+
+/* (No Comment) */
+"Mercury" = "수은";
+
+/* No comment provided by engineer. */
+"Missing cell-parameters" = "누락된 셀 매개변수";
+
+/* No comment provided by engineer. */
+"Molecular Orbital Input not supported" = "분자 궤도 입력이 지원되지 않음";
+
+/* (No Comment) */
+"Molybdenum" = "몰리브데넘";
+
+/* (No Comment) */
+"Moscovium" = "모스코븀";
+
+/* (No Comment) */
+"Neodymium" = "네오디뮴";
+
+/* (No Comment) */
+"Neon" = "네온";
+
+/* (No Comment) */
+"Neptunium" = "넵투늄";
+
+/* (No Comment) */
+"Nickel" = "니켈";
+
+/* (No Comment) */
+"Nihonium" = "니호늄";
+
+/* (No Comment) */
+"Niobium" = "나이오븀";
+
+/* (No Comment) */
+"Nitrogen" = "질소";
+
+/* (No Comment) */
+"Nobelium" = "노벨륨";
+
+/* No comment provided by engineer. */
+"Not a VTK file" = "VTK 파일이 아님";
+
+/* (No Comment) */
+"Oganesson" = "오가네손";
+
+/* (No Comment) */
+"Osmium" = "오스뮴";
+
+/* (No Comment) */
+"Oxygen" = "산소";
+
+/* (No Comment) */
+"Palladium" = "팔라듐";
+
+/* (No Comment) */
+"Phosphorus" = "인";
+
+/* (No Comment) */
+"Platinum" = "백금";
+
+/* (No Comment) */
+"Plutonium" = "플루토늄";
+
+/* (No Comment) */
+"Polonium" = "폴로늄";
+
+/* (No Comment) */
+"Potassium" = "포타슘";
+
+/* (No Comment) */
+"Praseodymium" = "프라세오디뮴";
+
+/* (No Comment) */
+"Promethium" = "프로메튬";
+
+/* (No Comment) */
+"Protactinium" = "프로트악티늄";
+
+/* (No Comment) */
+"Radium" = "라듐";
+
+/* (No Comment) */
+"Radon" = "라돈";
+
+/* (No Comment) */
+"Rhenium" = "레늄";
+
+/* (No Comment) */
+"Rhodium" = "로듐";
+
+/* (No Comment) */
+"Roentgenium" = "뢴트게늄";
+
+/* (No Comment) */
+"Rubidium" = "루비듐";
+
+/* (No Comment) */
+"Ruthenium" = "루테늄";
+
+/* (No Comment) */
+"Rutherfordium" = "러더포듐";
+
+/* (No Comment) */
+"Samarium" = "사마륨";
+
+/* (No Comment) */
+"Scandium" = "스칸듐";
+
+/* (No Comment) */
+"Seaborgium" = "시보귬";
+
+/* (No Comment) */
+"Selenium" = "셀레늄";
+
+/* (No Comment) */
+"Silicon" = "규소";
+
+/* (No Comment) */
+"Silver" = "은";
+
+/* (No Comment) */
+"Sodium" = "소듐";
+
+/* (No Comment) */
+"Strontium" = "스트론튬";
+
+/* (No Comment) */
+"Sulfur" = "황";
+
+/* (No Comment) */
+"Tantalum" = "탄탈럼";
+
+/* (No Comment) */
+"Technetium" = "테크네튬";
+
+/* (No Comment) */
+"Tellurium" = "텔루륨";
+
+/* (No Comment) */
+"Tennessine" = "테네신";
+
+/* (No Comment) */
+"Terbium" = "터븀";
+
+/* (No Comment) */
+"Thallium" = "탈륨";
+
+/* (No Comment) */
+"Thorium" = "토륨";
+
+/* (No Comment) */
+"Thulium" = "툴륨";
+
+/* (No Comment) */
+"Tin" = "주석";
+
+/* (No Comment) */
+"Titanium" = "타이타늄";
+
+/* (No Comment) */
+"Tungsten" = "텅스텐";
+
+/* No comment provided by engineer. */
+"Unknown data type" = "알 수 없는 데이터 유형";
+
+/* (No Comment) */
+"Uranium" = "우라늄";
+
+/* (No Comment) */
+"Vanadium" = "바나듐";
+
+/* No comment provided by engineer. */
+"VTK file must be of type StructuredPoints" = "VTK file must be of type StructuredPoints";
+
+/* No comment provided by engineer. */
+"VTK missing dimensions" = "VTK missing dimensions";
+
+/* No comment provided by engineer. */
+"VTK missing point data" = "VTK missing point data";
+
+/* No comment provided by engineer. */
+"VTK missing scale factor" = "VTK missing scale factor";
+
+/* (No Comment) */
+"Xenon" = "제논";
+
+/* (No Comment) */
+"Ytterbium" = "이터븀";
+
+/* (No Comment) */
+"Yttrium" = "이트륨";
+
+/* (No Comment) */
+"Zinc" = "아연";
+
+/* (No Comment) */
+"Zirconium" = "지르코늄";
+

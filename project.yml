@@ -1,0 +1,89 @@
+name: CIFPreview
+options:
+  bundleIdPrefix: org.cifpreview
+  deploymentTarget:
+    macOS: "12.0"
+  createIntermediateGroups: true
+packages:
+  CIFPackage:
+    path: .
+settings:
+  base:
+    CODE_SIGN_IDENTITY: "-"
+    CODE_SIGN_STYLE: Manual
+    DEVELOPMENT_TEAM: ""
+    ENABLE_HARDENED_RUNTIME: YES
+    SWIFT_VERSION: "5.9"
+    MACOSX_DEPLOYMENT_TARGET: "12.0"
+targets:
+  CIFPreview:
+    type: application
+    platform: macOS
+    sources:
+      - path: Sources/CIFPreviewHost
+    dependencies:
+      - target: CIFQuickLook
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.cifpreview.CIFPreview
+        INFOPLIST_FILE: Resources/CIFPreview.Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        PRODUCT_NAME: CIFPreview
+  CIFQuickLook:
+    type: app-extension
+    platform: macOS
+    sources:
+      - path: Sources/CIFQuickLook
+    dependencies:
+      - package: CIFPackage
+        products:
+          - CIFCore
+          - SymmetryKit
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.cifpreview.CIFPreview.cifquicklook2
+        INFOPLIST_FILE: Resources/CIFPreviewQuickLook.Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        PRODUCT_NAME: CIFQuickLook
+        CODE_SIGN_ENTITLEMENTS: Resources/appex.entitlements
+        OTHER_LDFLAGS: ["-e", "_NSExtensionMain"]
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks"
+  MiniQLApp:
+    type: application
+    platform: macOS
+    sources:
+      - path: Sources/MiniHost
+    dependencies:
+      - target: MiniQL
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.cifpreview.mini
+        INFOPLIST_FILE: Resources/MiniApp.Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        PRODUCT_NAME: MiniQLApp
+  MiniQL:
+    type: app-extension
+    platform: macOS
+    sources:
+      - path: Sources/MiniQL
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.cifpreview.mini.QuickLook
+        INFOPLIST_FILE: Resources/MiniQL.Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        PRODUCT_NAME: MiniQL
+schemes:
+  CIFPreview:
+    build:
+      targets:
+        CIFPreview: all
+        CIFQuickLook: all
+    run:
+      config: Release
+  MiniQLApp:
+    build:
+      targets:
+        MiniQLApp: all
+        MiniQL: all
+    run:
+      config: Release

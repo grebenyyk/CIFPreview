@@ -1,0 +1,387 @@
+/* (No Comment) */
+"Actinium" = "Actínio";
+
+/* (No Comment) */
+"Aluminum" = "Alumínio";
+
+/* (No Comment) */
+"Americium" = "Amerício";
+
+/* (No Comment) */
+"Antimony" = "Antimónio";
+
+/* (No Comment) */
+"Argon" = "Árgon";
+
+/* (No Comment) */
+"Arsenic" = "Arsénio";
+
+/* (No Comment) */
+"Astatine" = "Ástato";
+
+/* (No Comment) */
+"Barium" = "Bário";
+
+/* (No Comment) */
+"Berkelium" = "Berkélio";
+
+/* (No Comment) */
+"Beryllium" = "Berílio";
+
+/* (No Comment) */
+"Bismuth" = "Bismuto";
+
+/* (No Comment) */
+"Bohrium" = "Bóhrio";
+
+/* (No Comment) */
+"Boron" = "Boro";
+
+/* (No Comment) */
+"Bromine" = "Bromo";
+
+/* (No Comment) */
+"Cadmium" = "Cádmio";
+
+/* (No Comment) */
+"Calcium" = "Cálcio";
+
+/* (No Comment) */
+"Californium" = "Califórnio";
+
+/* (No Comment) */
+"Carbon" = "Carbono";
+
+/* (No Comment) */
+"Cerium" = "Cério";
+
+/* (No Comment) */
+"Cesium" = "Césio";
+
+/* (No Comment) */
+"Chlorine" = "Cloro";
+
+/* (No Comment) */
+"Chromium" = "Cromo";
+
+/* (No Comment) */
+"Cobalt" = "Cobalto";
+
+/* No comment provided by engineer. */
+"Contains no data" = "Não contém dados";
+
+/* (No Comment) */
+"Copernicium" = "Copernício";
+
+/* (No Comment) */
+"Copper" = "Cobre";
+
+/* (No Comment) */
+"Curium" = "Cúrio";
+
+/* (No Comment) */
+"Darmstadtium" = "Darmstácio";
+
+/* (No Comment) */
+"Dubnium" = "Dúbnio";
+
+/* (No Comment) */
+"Dysprosium" = "Disprósio";
+
+/* (No Comment) */
+"Einsteinium" = "Einsténio";
+
+/* (No Comment) */
+"Erbium" = "Érbio";
+
+/* (No Comment) */
+"Europium" = "Európio";
+
+/* No comment provided by engineer. */
+"Failed UTF-8 and ASCII decoding" = "Falha na decodificação UTF-8 e ASCII";
+
+/* (No Comment) */
+"Fermium" = "Férmio";
+
+/* (No Comment) */
+"Flerovium" = "Fleróvio";
+
+/* (No Comment) */
+"Fluorine" = "Flúor";
+
+/* (No Comment) */
+"Francium" = "Frâncio";
+
+/* (No Comment) */
+"Gadolinium" = "Gadolínio";
+
+/* (No Comment) */
+"Gallium" = "Gálio";
+
+/* (No Comment) */
+"Germanium" = "Germânio";
+
+/* (No Comment) */
+"Gold" = "Ouro";
+
+/* (No Comment) */
+"Hafnium" = "Háfnio";
+
+/* (No Comment) */
+"Hassium" = "Hássio";
+
+/* (No Comment) */
+"Helium" = "Hélio";
+
+/* (No Comment) */
+"Holmium" = "Hólmio";
+
+/* (No Comment) */
+"Hydrogen" = "Hidrogénio";
+
+/* (No Comment) */
+"Indium" = "Índio";
+
+/* (No Comment) */
+"Invalid Archive Version (Upgrade to latest iRASPA version)" = "Versão de arquivo inválida (atualize para a versão mais recente do iRASPA)";
+
+/* (No Comment) */
+"Iodine" = "Iodo";
+
+/* (No Comment) */
+"Iridium" = "Irídio";
+
+/* (No Comment) */
+"Iron" = "Ferro";
+
+/* (No Comment) */
+"Krypton" = "Crípton";
+
+/* (No Comment) */
+"Lanthanum" = "Lantânio";
+
+/* (No Comment) */
+"Lawrencium" = "Lawrêncio";
+
+/* (No Comment) */
+"Lead" = "Chumbo";
+
+/* (No Comment) */
+"Lithium" = "Lítio";
+
+/* (No Comment) */
+"Livermorium" = "Livermório";
+
+/* (No Comment) */
+"Lutetium" = "Lutécio";
+
+/* (No Comment) */
+"Magnesium" = "Magnésio";
+
+/* (No Comment) */
+"Manganese" = "Manganês";
+
+/* (No Comment) */
+"Meitnerium" = "Meitnério";
+
+/* (No Comment) */
+"Mendelevium" = "Mendelévio";
+
+/* (No Comment) */
+"Mercury" = "Mercúrio";
+
+/* No comment provided by engineer. */
+"Missing cell-parameters" = "Parâmetros de célula ausentes";
+
+/* No comment provided by engineer. */
+"Molecular Orbital Input not supported" = "Entrada orbital molecular não suportada";
+
+/* (No Comment) */
+"Molybdenum" = "Molibdénio";
+
+/* (No Comment) */
+"Moscovium" = "Moscóvio";
+
+/* (No Comment) */
+"Neodymium" = "Neodímio";
+
+/* (No Comment) */
+"Neon" = "Néon";
+
+/* (No Comment) */
+"Neptunium" = "Neptúnio";
+
+/* (No Comment) */
+"Nickel" = "Níquel";
+
+/* (No Comment) */
+"Nihonium" = "Nipónio";
+
+/* (No Comment) */
+"Niobium" = "Nióbio";
+
+/* (No Comment) */
+"Nitrogen" = "Nitrogénio";
+
+/* (No Comment) */
+"Nobelium" = "Nobélio";
+
+/* No comment provided by engineer. */
+"Not a VTK file" = "Não é um arquivo VTK";
+
+/* (No Comment) */
+"Oganesson" = "Oganésson";
+
+/* (No Comment) */
+"Osmium" = "Ósmio";
+
+/* (No Comment) */
+"Oxygen" = "Oxigénio";
+
+/* (No Comment) */
+"Palladium" = "Paládio";
+
+/* (No Comment) */
+"Phosphorus" = "Fósforo";
+
+/* (No Comment) */
+"Platinum" = "Platina";
+
+/* (No Comment) */
+"Plutonium" = "Plutónio";
+
+/* (No Comment) */
+"Polonium" = "Polónio";
+
+/* (No Comment) */
+"Potassium" = "Potássio";
+
+/* (No Comment) */
+"Praseodymium" = "Praseodímio";
+
+/* (No Comment) */
+"Promethium" = "Promécio";
+
+/* (No Comment) */
+"Protactinium" = "Protacnídio";
+
+/* (No Comment) */
+"Radium" = "Rádio";
+
+/* (No Comment) */
+"Radon" = "Rádon";
+
+/* (No Comment) */
+"Rhenium" = "Rénio";
+
+/* (No Comment) */
+"Rhodium" = "Ródio";
+
+/* (No Comment) */
+"Roentgenium" = "Roentgénio";
+
+/* (No Comment) */
+"Rubidium" = "Rubídio";
+
+/* (No Comment) */
+"Ruthenium" = "Ruténio";
+
+/* (No Comment) */
+"Rutherfordium" = "Rutherfórdio";
+
+/* (No Comment) */
+"Samarium" = "Samário";
+
+/* (No Comment) */
+"Scandium" = "Escândio";
+
+/* (No Comment) */
+"Seaborgium" = "Seabórgio";
+
+/* (No Comment) */
+"Selenium" = "Selénio";
+
+/* (No Comment) */
+"Silicon" = "Silício";
+
+/* (No Comment) */
+"Silver" = "Prata";
+
+/* (No Comment) */
+"Sodium" = "Sódio";
+
+/* (No Comment) */
+"Strontium" = "Estrôncio";
+
+/* (No Comment) */
+"Sulfur" = "Enxofre";
+
+/* (No Comment) */
+"Tantalum" = "Tântalo";
+
+/* (No Comment) */
+"Technetium" = "Tecnécio";
+
+/* (No Comment) */
+"Tellurium" = "Telúrio";
+
+/* (No Comment) */
+"Tennessine" = "Tennesso";
+
+/* (No Comment) */
+"Terbium" = "Térbio";
+
+/* (No Comment) */
+"Thallium" = "Tálio";
+
+/* (No Comment) */
+"Thorium" = "Tório";
+
+/* (No Comment) */
+"Thulium" = "Túlio";
+
+/* (No Comment) */
+"Tin" = "Estanho";
+
+/* (No Comment) */
+"Titanium" = "Titânio";
+
+/* (No Comment) */
+"Tungsten" = "Tungsténio";
+
+/* No comment provided by engineer. */
+"Unknown data type" = "Tipo de dados desconhecido";
+
+/* (No Comment) */
+"Uranium" = "Urânio";
+
+/* (No Comment) */
+"Vanadium" = "Vanádio";
+
+/* No comment provided by engineer. */
+"VTK file must be of type StructuredPoints" = "VTK file must be of type StructuredPoints";
+
+/* No comment provided by engineer. */
+"VTK missing dimensions" = "VTK missing dimensions";
+
+/* No comment provided by engineer. */
+"VTK missing point data" = "VTK missing point data";
+
+/* No comment provided by engineer. */
+"VTK missing scale factor" = "VTK missing scale factor";
+
+/* (No Comment) */
+"Xenon" = "Xénon";
+
+/* (No Comment) */
+"Ytterbium" = "Itérbio";
+
+/* (No Comment) */
+"Yttrium" = "Ítrio";
+
+/* (No Comment) */
+"Zinc" = "Zinco";
+
+/* (No Comment) */
+"Zirconium" = "Zircónio";
+

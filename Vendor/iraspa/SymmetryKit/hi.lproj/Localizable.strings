@@ -1,0 +1,387 @@
+/* (No Comment) */
+"Actinium" = "एक्टिनियम";
+
+/* (No Comment) */
+"Aluminum" = "एलुमिनियम";
+
+/* (No Comment) */
+"Americium" = "अमेरिसियम";
+
+/* (No Comment) */
+"Antimony" = "एंटीमनी";
+
+/* (No Comment) */
+"Argon" = "आर्गन";
+
+/* (No Comment) */
+"Arsenic" = "आर्सेनिक";
+
+/* (No Comment) */
+"Astatine" = "एस्टाटिन";
+
+/* (No Comment) */
+"Barium" = "बेरियम";
+
+/* (No Comment) */
+"Berkelium" = "बर्केलियम";
+
+/* (No Comment) */
+"Beryllium" = "बेरिलियम";
+
+/* (No Comment) */
+"Bismuth" = "बिस्मथ";
+
+/* (No Comment) */
+"Bohrium" = "बोरियम";
+
+/* (No Comment) */
+"Boron" = "बोरान";
+
+/* (No Comment) */
+"Bromine" = "ब्रोमिन";
+
+/* (No Comment) */
+"Cadmium" = "कैडमियम";
+
+/* (No Comment) */
+"Calcium" = "कैल्सियम";
+
+/* (No Comment) */
+"Californium" = "कैलिफोर्नियम";
+
+/* (No Comment) */
+"Carbon" = "कार्बोन";
+
+/* (No Comment) */
+"Cerium" = "सेरियम";
+
+/* (No Comment) */
+"Cesium" = "केसियम";
+
+/* (No Comment) */
+"Chlorine" = "क्लोरीन";
+
+/* (No Comment) */
+"Chromium" = "क्रोमियम";
+
+/* (No Comment) */
+"Cobalt" = "कोबाल्ट";
+
+/* No comment provided by engineer. */
+"Contains no data" = "कोई डेटा नहीं है";
+
+/* (No Comment) */
+"Copernicium" = "कॉपरनिसियम";
+
+/* (No Comment) */
+"Copper" = "कॉपर";
+
+/* (No Comment) */
+"Curium" = "क्यूरियम";
+
+/* (No Comment) */
+"Darmstadtium" = "डार्मस्टेडियम";
+
+/* (No Comment) */
+"Dubnium" = "डब्नियम";
+
+/* (No Comment) */
+"Dysprosium" = "डिस्प्रोसियम";
+
+/* (No Comment) */
+"Einsteinium" = "आइंस्टीनियम";
+
+/* (No Comment) */
+"Erbium" = "अर्बियम";
+
+/* (No Comment) */
+"Europium" = "युरोपियम";
+
+/* No comment provided by engineer. */
+"Failed UTF-8 and ASCII decoding" = "विफल UTF-8 और ASCII डिकोडिंग";
+
+/* (No Comment) */
+"Fermium" = "फर्मियम";
+
+/* (No Comment) */
+"Flerovium" = "फ्लेरोवियम";
+
+/* (No Comment) */
+"Fluorine" = "फ्लोरीन";
+
+/* (No Comment) */
+"Francium" = "फ्रान्सियम";
+
+/* (No Comment) */
+"Gadolinium" = "ग्याडोलिनियम";
+
+/* (No Comment) */
+"Gallium" = "गैलियम";
+
+/* (No Comment) */
+"Germanium" = "जर्मेनियम";
+
+/* (No Comment) */
+"Gold" = "गोल्ड/औरियम";
+
+/* (No Comment) */
+"Hafnium" = "हाफ्नियम";
+
+/* (No Comment) */
+"Hassium" = "हैसियम";
+
+/* (No Comment) */
+"Helium" = "हीलियम";
+
+/* (No Comment) */
+"Holmium" = "होल्मियम";
+
+/* (No Comment) */
+"Hydrogen" = "हाइड्रोजन";
+
+/* (No Comment) */
+"Indium" = "इंडियम";
+
+/* (No Comment) */
+"Invalid Archive Version (Upgrade to latest iRASPA version)" = "अमान्य पुरालेख संस्करण (नवीनतम आई रास्पा संस्करण में अपग्रेड करें)";
+
+/* (No Comment) */
+"Iodine" = "आयोडिन";
+
+/* (No Comment) */
+"Iridium" = "इरिडियम";
+
+/* (No Comment) */
+"Iron" = "आयरन";
+
+/* (No Comment) */
+"Krypton" = "क्रिप्टन";
+
+/* (No Comment) */
+"Lanthanum" = "लैंथेनम";
+
+/* (No Comment) */
+"Lawrencium" = "लॉरेंसियम";
+
+/* (No Comment) */
+"Lead" = "लेड";
+
+/* (No Comment) */
+"Lithium" = "लिथियम";
+
+/* (No Comment) */
+"Livermorium" = "लिवरमोरियम";
+
+/* (No Comment) */
+"Lutetium" = "लुटेटियम";
+
+/* (No Comment) */
+"Magnesium" = "मैग्नीशियम";
+
+/* (No Comment) */
+"Manganese" = "मैंगनीज";
+
+/* (No Comment) */
+"Meitnerium" = "मेइट्नेरियम";
+
+/* (No Comment) */
+"Mendelevium" = "मेन्डेलेभियम";
+
+/* (No Comment) */
+"Mercury" = "मर्करी";
+
+/* No comment provided by engineer. */
+"Missing cell-parameters" = "गुम सेल-पैरामीटर";
+
+/* No comment provided by engineer. */
+"Molecular Orbital Input not supported" = "आणविक कक्षीय इनपुट समर्थित नहीं है";
+
+/* (No Comment) */
+"Molybdenum" = "मॉलिब्डेनम";
+
+/* (No Comment) */
+"Moscovium" = "मोस्कोवियम";
+
+/* (No Comment) */
+"Neodymium" = "नियोडाइमियम";
+
+/* (No Comment) */
+"Neon" = "नीऑन्";
+
+/* (No Comment) */
+"Neptunium" = "नेप्च्यूनियम";
+
+/* (No Comment) */
+"Nickel" = "निकल";
+
+/* (No Comment) */
+"Nihonium" = "निहोनियम";
+
+/* (No Comment) */
+"Niobium" = "नियोबियम";
+
+/* (No Comment) */
+"Nitrogen" = "नाइट्रोजन";
+
+/* (No Comment) */
+"Nobelium" = "नोबेलियम";
+
+/* No comment provided by engineer. */
+"Not a VTK file" = "वीटीके फ़ाइल नहीं";
+
+/* (No Comment) */
+"Oganesson" = "ओगेनेस्साॅन";
+
+/* (No Comment) */
+"Osmium" = "ओस्मियम";
+
+/* (No Comment) */
+"Oxygen" = "ऑक्सीजन";
+
+/* (No Comment) */
+"Palladium" = "पैलाडियम";
+
+/* (No Comment) */
+"Phosphorus" = "पोटैसियम";
+
+/* (No Comment) */
+"Platinum" = "प्लाटिनम";
+
+/* (No Comment) */
+"Plutonium" = "प्लूटोनियम";
+
+/* (No Comment) */
+"Polonium" = "पोलोनियम";
+
+/* (No Comment) */
+"Potassium" = "पोटैसियम";
+
+/* (No Comment) */
+"Praseodymium" = "प्रासियोडाइमियम";
+
+/* (No Comment) */
+"Promethium" = "प्रोमेथियम";
+
+/* (No Comment) */
+"Protactinium" = "प्रोटेक्टिनियम";
+
+/* (No Comment) */
+"Radium" = "रेडियम";
+
+/* (No Comment) */
+"Radon" = "रेडन";
+
+/* (No Comment) */
+"Rhenium" = "रेनियम";
+
+/* (No Comment) */
+"Rhodium" = "रोडियम";
+
+/* (No Comment) */
+"Roentgenium" = "रूएन्टजेनियम";
+
+/* (No Comment) */
+"Rubidium" = "रुबिडियम";
+
+/* (No Comment) */
+"Ruthenium" = "रुथेनियम";
+
+/* (No Comment) */
+"Rutherfordium" = "रदरफोर्डियम";
+
+/* (No Comment) */
+"Samarium" = "समारियम";
+
+/* (No Comment) */
+"Scandium" = "स्कैंडियम";
+
+/* (No Comment) */
+"Seaborgium" = "सीबोर्गियम";
+
+/* (No Comment) */
+"Selenium" = "सेलेनियम";
+
+/* (No Comment) */
+"Silicon" = "सिलिकन";
+
+/* (No Comment) */
+"Silver" = "सिल्वर";
+
+/* (No Comment) */
+"Sodium" = "सोडियम";
+
+/* (No Comment) */
+"Strontium" = "स्ट्रॉन्सियम";
+
+/* (No Comment) */
+"Sulfur" = "सल्फर";
+
+/* (No Comment) */
+"Tantalum" = "टान्टालम";
+
+/* (No Comment) */
+"Technetium" = "टेक्नीसियम";
+
+/* (No Comment) */
+"Tellurium" = "टेल्यूरियम";
+
+/* (No Comment) */
+"Tennessine" = "तेन्नेसीन";
+
+/* (No Comment) */
+"Terbium" = "टर्बियम";
+
+/* (No Comment) */
+"Thallium" = "थैलियम";
+
+/* (No Comment) */
+"Thorium" = "थोरियम";
+
+/* (No Comment) */
+"Thulium" = "थुलियम";
+
+/* (No Comment) */
+"Tin" = "टिन";
+
+/* (No Comment) */
+"Titanium" = "टाइटानियम";
+
+/* (No Comment) */
+"Tungsten" = "टंग्स्टेन";
+
+/* No comment provided by engineer. */
+"Unknown data type" = "अज्ञात डेटा प्रकार";
+
+/* (No Comment) */
+"Uranium" = "यूरेनियम";
+
+/* (No Comment) */
+"Vanadium" = "वनडियम";
+
+/* No comment provided by engineer. */
+"VTK file must be of type StructuredPoints" = "VTK file must be of type StructuredPoints";
+
+/* No comment provided by engineer. */
+"VTK missing dimensions" = "VTK missing dimensions";
+
+/* No comment provided by engineer. */
+"VTK missing point data" = "VTK missing point data";
+
+/* No comment provided by engineer. */
+"VTK missing scale factor" = "VTK missing scale factor";
+
+/* (No Comment) */
+"Xenon" = "जेनन";
+
+/* (No Comment) */
+"Ytterbium" = "यिट्टरबियम";
+
+/* (No Comment) */
+"Yttrium" = "यिट्रियम";
+
+/* (No Comment) */
+"Zinc" = "जिंक";
+
+/* (No Comment) */
+"Zirconium" = "जर्कोनियम";
+
