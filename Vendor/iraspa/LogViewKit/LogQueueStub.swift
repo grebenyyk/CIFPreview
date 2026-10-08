@@ -8,7 +8,7 @@ import os.log
 
 public final class LogQueue {
     public static let shared = LogQueue()
-    private let log = OSLog(subsystem: "org.dimitrygrebenyuk.CIFPreview", category: "parser")
+    private let log = OSLog(subsystem: "org.cifpreview.CIFPreview", category: "parser")
 
     public func warning(destination: AnyObject?, message: String, completionHandler: @escaping () -> () = {}) {
         os_log(.default, log: log, "warning: %{public}@", message)
