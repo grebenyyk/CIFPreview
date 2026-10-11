@@ -80,6 +80,15 @@ The curated sample list lives in `tests/regression/samples.local.json`
 expanded atom counts and space groups against pymatgen (falling back to ASE),
 always truncating multi-block files to the same block the extension selects.
 
+## Troubleshooting
+
+After a macOS update the preview may stop working — updates can wipe the
+LaunchServices/pluginkit record for ad-hoc-signed apps. Re-register:
+
+```bash
+./scripts/reregister.sh
+```
+
 ## Uninstall
 
 ```bash
